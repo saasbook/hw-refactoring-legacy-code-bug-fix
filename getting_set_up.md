@@ -9,7 +9,7 @@ In these steps you'll download Typo, get it running on your local system, verify
 $ bundle exec rake cucumber
 $ bundle exec rake spec
 ```
-3) Setup a free Pivotal Tracker account, create a public project for this assignment, and add your pair partners as collaborators (obviously only one of you needs to do this).  
+3) Setup a free [Pivotal Tracker](https://www.pivotaltracker.com) account, create a public project for this assignment, and add your pair partners as collaborators (obviously only one of you needs to do this).  
 4) Make sure Typo can be deployed to Heroku (see "[deploying to heroku](#deploying-to-heroku-instructions)" instructions below).
  
 
