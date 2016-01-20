@@ -48,3 +48,5 @@ heroku open
 ```
 
 At this point a browser should open and take you to  typo setup. Follow the onscreen instructions but **please make a careful note of the password it generates for you**.  Once you leave the page with the password on you can't reset it unless you want to work out how to get typo set up to send email on Heroku.  Note that you'll need this password for your homework submission.
+
+Next: [Fixing a Bug in Typo](fixing_a_bug_in_typo.md)
