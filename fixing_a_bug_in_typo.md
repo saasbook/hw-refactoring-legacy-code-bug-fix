@@ -1,3 +1,6 @@
+Fixing a Bug in Typo
+====================
+
 The version of typo you have checked out contains a bug that prevents categories from being created or edited. To see this bug, make sure you are logged in as an administrator and click on the “categories” link on the left hand side of the admin page. The page is intended to look as follows:
 
 ![](https://courses.edx.org/asset-v1:BerkeleyX+CS169.2x+1T2016+type@asset+block/Screen_Shot_2013-11-04_at_4.41.05_PM.png)
