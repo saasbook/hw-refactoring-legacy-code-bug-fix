@@ -5,12 +5,10 @@ In these steps you'll download Typo, get it running on your local system, verify
  
 1) Install Typo locally (see "Typo + GitHub Setup Instructions" below)  
 2) Get the Typo test suite and make sure all specs pass green. Pending specs are fine. Run the following commands:
-
 ```
 $ bundle exec rake cucumber
 $ bundle exec rake spec
 ```
-
 3) Setup a free Pivotal Tracker account, create a public project for this assignment, and add your pair partners as collaborators (obviously only one of you needs to do this).  
 4) Make sure Typo can be deployed to Heroku (see "deploying to heroku" instructions below).
  
