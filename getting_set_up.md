@@ -1,4 +1,4 @@
-GETTING SET UP
+Getting Set Up
 ===============
 
 In these steps you'll download Typo, get it running on your local system, verify that its test suite passes, and do a test deployment to Heroku.  You'll also setup an account on Pivotal Tracker, which you'll use to setup tasks for part 2.
@@ -19,7 +19,7 @@ $ bundle exec rake spec
 Typo + GitHub Setup Instructions
 --------------------------------
 
-1. Fork the Typo repository: https://github.com/saasbook/typo  (Typo is open source, but we have snapshotted the repo including fixing some failing tests and using a stable revision for Ruby 1.9.3)
+1. Fork the Typo repository: https://github.com/saasbook/typo  (Typo is open source, but we have snapshotted the repo including fixing some failing tests and using a stable revision for Ruby 1.9.3 - note that so far in the course we have been on Ruby 2.2.2 - if you don't have Ruby 1.9.3 install it via `rvm install 1.9.3`)
 2. Now clone your forked Typo repository into a folder on your local machine.
 3. Run `sudo apt-get update`
 4. Run `sudo apt-get install libxml2-dev libxslt-dev`
