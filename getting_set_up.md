@@ -3,17 +3,16 @@ Getting Set Up
 
 In these steps you'll download Typo, get it running on your local system, verify that its test suite passes, and do a test deployment to Heroku.  You'll also setup an account on Pivotal Tracker, which you'll use to setup tasks for part 2.
  
-1. Install Typo locally (see "Typo + GitHub Setup Instructions" below)
-2. Get the Typo test suite and make sure all specs pass green. Pending specs are fine. Run the following commands:
+1) Install Typo locally (see "Typo + GitHub Setup Instructions" below)  
+2) Get the Typo test suite and make sure all specs pass green. Pending specs are fine. Run the following commands:
 
 ```
 $ bundle exec rake cucumber
 $ bundle exec rake spec
 ```
 
-3. Setup a free Pivotal Tracker account, create a public project for this assignment, and add your pair partners as collaborators (obviously only one of you needs to do this).  
-
-4. Make sure Typo can be deployed to Heroku (see "deploying to heroku" instructions below).
+3) Setup a free Pivotal Tracker account, create a public project for this assignment, and add your pair partners as collaborators (obviously only one of you needs to do this).  
+4) Make sure Typo can be deployed to Heroku (see "deploying to heroku" instructions below).
  
 
 Typo + GitHub Setup Instructions
