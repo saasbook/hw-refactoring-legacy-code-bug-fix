@@ -16,4 +16,4 @@ Assignment Structure:
 3. Write cucumber stories to test the behavior of the bug.
 4. Write a bugfix that passes the cucumber stories you created in step 3.
 
-[Getting Set Up](getting_set_up.md)
+Next: [Getting Set Up](getting_set_up.md)
