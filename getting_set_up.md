@@ -7,8 +7,8 @@ In these steps you'll download Typo, get it running on your local system, verify
 2. Get the Typo test suite and make sure all specs pass green. Pending specs are fine. Run the following commands:
 
 ```
-bundle exec rake cucumber
-bundle exec rake spec
+$ bundle exec rake cucumber
+$ bundle exec rake spec
 ```
 
 3. Setup a free Pivotal Tracker account, create a public project for this assignment, and add your pair partners as collaborators (obviously only one of you needs to do this).  
@@ -33,20 +33,20 @@ Deploying to Heroku Instructions
 Typo wasn’t built with Heroku in mind, but the changes needed to deploy to Heroku have already been made in our fork of the Typo repository. If you haven't done it previously you will need to run the following at the command line:
 
 ```
-heroku login
-ssh-keygen
-heroku keys:add
+$ heroku login
+$ ssh-keygen
+$ heroku keys:add
 ```
 
 Then from within your copy of the Typo repository, run:
  
 ```
-heroku create
-git push heroku master
-heroku run rake db:migrate
-heroku open
+$ heroku create
+$ git push heroku master
+$ heroku run rake db:migrate
+$ heroku open # doesn't work on C9 --> on C9 right click on link that git push to heroku generates
 ```
 
-At this point a browser should open and take you to  typo setup. Follow the onscreen instructions but **please make a careful note of the password it generates for you**.  Once you leave the page with the password on you can't reset it unless you want to work out how to get typo set up to send email on Heroku.  Note that you'll need this password for your homework submission.
+At this point a browser should open and take you to typo setup. Follow the onscreen instructions but **please make a careful note of the password it generates for you**.  Once you leave the page with the password on you can't reset it unless you want to work out how to get typo set up to send email on Heroku.  Note that you'll need this password for your homework submission.
 
 Next: [Fixing a Bug in Typo](fixing_a_bug_in_typo.md)
