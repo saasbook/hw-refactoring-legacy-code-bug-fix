@@ -22,8 +22,8 @@ Typo + GitHub Setup Instructions
 4. Run `sudo apt-get install libxml2-dev libxslt-dev`
 5. Run `sudo chmod 777 -R /tmp`
 6. Run `sudo chmod o+t -R /tmp`
-5. Run bundle install --without production in the Typo directory. 
-6. Run the database migration in the Typo directory (`rake db:migrate`).
+7. Run bundle install --without production in the Typo directory. 
+8. Run the database migration in the Typo directory (`rake db:migrate`).
  
 
 Deploying to Heroku Instructions
