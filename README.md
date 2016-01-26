@@ -4,7 +4,7 @@
 
 Typo is a blogging engine written in Rails to allow people to set up a blog easily.  Typo consists of about 30,000 lines of code (30 KLOC) and comes with a ton of features, including authentication to post to the blog, attaching files to articles, adding special markup, creating custom themes, building user profiles, and allowing guests and/or users to comment on posts.  It also supports more advanced features like trackbacks (allowing other blogs to “track back” to yours and mention you in their blog article).
 
-From your perspective, Typo is legacy code since you didn't write it yourself :-)  In this assignment you'll go through the steps of adapting the BDD+TDD cycle to enhance and fix a bug in a piece of legacy code.
+From your perspective, Typo is legacy code since you didn't write it yourself :-)  In this assignment you'll go through the steps of adapting the BDD+TDD cycle to fix a bug in a piece of legacy code.
 
 Assignment Structure:
 --------------------
