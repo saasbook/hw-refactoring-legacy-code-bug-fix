@@ -11,4 +11,4 @@ Start by checking that all of the existing Rspec and Cucumber tests run.
 
 Then fix this bug by writing cucumber tests that fail when this bug is present, and then rspec unit tests that fail when the bug is present.  Then fix the bug, ensuring that your rspec unit tests pass, and that your cucumber tests pass. Write sufficient tests using the BDD-TDD cycle method such that ultimately the admin user can successfully edit existing categories and create new categories.
 
-**When you complete the above you will be ready to submit Legacy HW1**
+**When you complete the above you will be ready to submit the Legacy assignment "Bug Fix"**
