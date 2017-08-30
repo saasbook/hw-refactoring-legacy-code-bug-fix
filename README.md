@@ -1,6 +1,8 @@
 # Legacy Code Refactoring and Bug Fix
 
-**Overview: Extending & Fixing Typo**
+**NOTE: Do not clone this repo to your workspace. Fork it first, then clone your fork.**
+
+## Overview: Extending & Fixing Typo
 
 Typo is a blogging engine written in Rails to allow people to set up a blog easily.  Typo consists of about 30,000 lines of code (30 KLOC) and comes with a ton of features, including authentication to post to the blog, attaching files to articles, adding special markup, creating custom themes, building user profiles, and allowing guests and/or users to comment on posts.  It also supports more advanced features like trackbacks (allowing other blogs to “track back” to yours and mention you in their blog article).
 
