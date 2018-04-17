@@ -38,7 +38,7 @@ $ heroku keys:add
 Then from within your copy of the Typo repository, run:
 
 ```
-$ heroku create
+$ heroku create --stack cedar-14
 $ git push heroku master
 $ heroku run rake db:migrate
 $ heroku open # doesn't work on C9 --> on C9 right click on link that git push to heroku generates
